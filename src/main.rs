@@ -18,7 +18,8 @@ enum Mode {
     ArgGroup::new("input")
         .required(true)
         .args(&["message", "source-file"])
-))]
+    )
+)]
 struct Args {
     /// The mode specifies if the program should encode or decode
     #[clap(arg_enum, value_parser)]

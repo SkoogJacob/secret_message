@@ -2,6 +2,8 @@
 name = "secret_message"
 version = "0.1.0"
 edition = "2021"
+author = "Jacob Skoog <jacob.skoog@protonmail.com>"
+about = "Encodes to and from morse code"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
